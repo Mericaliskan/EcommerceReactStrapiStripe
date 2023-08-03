@@ -1,0 +1,56 @@
+@import "../../css-config/mixins.scss";
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 80px;
+    h1 {
+        color: #2ecc71;
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 18px;
+        line-height: 1.6;
+      }
+      
+  
+  .success-message {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #2ecc71; 
+    color: #fff;  
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: bold; 
+    text-align: center; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Kutuya gölge ekle */
+    margin-bottom: 20px;
+  }
+  
+  a {
+    color: #3498db;
+    text-decoration: none;
+    margin-top: 20px;
+    display: block;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  }
+  
+
+  
